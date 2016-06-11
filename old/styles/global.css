@@ -1,0 +1,30 @@
+body
+	{
+	background: url(../images/bg_body.gif);
+	}
+	
+#wrapper
+	{
+	width: 250px;
+	margin: 0px auto;
+	}
+	
+#hold
+	{
+	width: 250px;
+	height: 600px;
+	background: url(../images/img_hold.jpg);
+	margin-top: 20px;
+	}
+	
+#icons
+	{
+	width: 250px;
+	height: 40px;
+	}
+	
+#icons img
+	{
+	border: none;
+	margin: 0 24px;
+	}

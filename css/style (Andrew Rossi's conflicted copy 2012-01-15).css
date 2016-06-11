@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before, body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+/* Set Site Colors */
+/* Typography */
+.typekit-sans {
+  font-family: 'urbana1', 'urbana2', sans-serif;
+}
+.sans-serif {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.serif {
+  font-family: "Cambria, Georgia, Times, " Times New Roman;
+}
+.monospace {
+  font-family: "Monaco", Courier New, monospace;
+}
+body {
+  background-color: #eee;
+}
+.wrapper {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+}
+@media only screen and (min-width: 480px) {
+  
+}
+@media only screen and (min-width: 600px) {
+  
+}
+@media only screen and (min-width: 768px) {
+  
+}
+@media only screen and (min-width: 992px) {
+  
+}
+@media only screen and (min-width: 1382px) {
+  
+}
