@@ -15,7 +15,7 @@ module.exports = (grunt) ->
 
   ##### Tasks ######
   grunt.loadTasks "grunt"
- 
+
   # NOTE: this has to wipe out everything
   grunt.registerTask "root-canal", [ "clean:all", "copy:main" ]
 
@@ -33,7 +33,7 @@ module.exports = (grunt) ->
   grunt.registerTask "bustcache", ["bushcaster", "string-replace:dist"]
 
   # Build tasks
-  grunt.registerTask "buildDev", [ "root-canal", "symlink:ee", "javascript:dev", "css:dev", "grunticon"]
+  grunt.registerTask "buildDev", [ "root-canal", "javascript:dev", "css:dev", "grunticon"]
 
   grunt.registerTask "buildProduction", [ "root-canal", "copy:ee", "javascript:dist", "css:dist", "grunticon", "bustcache"]
 
