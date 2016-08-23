@@ -1,0 +1,16 @@
+{
+  "name": "talena-templates",
+  "version": "0.1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^1.9.0",
+    "Snap.svg": "snap.svg#^0.4.1"
+  }
+}
