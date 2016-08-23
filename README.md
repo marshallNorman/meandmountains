@@ -1,4 +1,4 @@
-# Telana templates & EE
+# Me & Mountains site
 
 ##Stack
 
@@ -6,7 +6,6 @@
   - Assemble for static templates
   - Bower for 3rd party libraries
   - ES6 + Babel
-  - EE for CMS
 
 ## Installation/Setup
 
@@ -16,22 +15,13 @@
 - Install [Grunt](http://gruntjs.com) globally (`npm install -g grunt-cli`)
 - Install NPM packages from the root of the project (`npm install`)
 
-### ExpressionEngine
-
-- Create a MySQL database and populate with a dump from QA or production
-- Copy `ee/.env.sample.php` to `ee/.env.php` and change values to match your setup
-- Create an Apache virtual host entry pointing to the `dist/` directory as the web root
-- Run `./scripts/setup.sh` to setup an uploads directory and proper permissions
-- Run `./scripts/sync.sh` to sync the QA database and uploads directory to your local dev environment
-
 ## Usage
 
 Run the following commands from withing the project:
 
-- `grunt` - Runs a dev build that symlinks EE files into `dist`
+- `grunt` - Runs a dev build
 - `grunt server` - Runs a local server and watch task
 - `grunt watch` - Runs a watch task on front-end assets
-- `grunt buildProduction` - Runs a production build with EE
 
 ## Running locally with Docker
 
