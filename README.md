@@ -23,24 +23,6 @@ Run the following commands from withing the project:
 - `grunt server` - Runs a local server and watch task
 - `grunt watch` - Runs a watch task on front-end assets
 
-## Running locally with Docker
-
-- Install [boot2docker.io](boot2docker.io) - `brew install boot2docker`
-- Initialize boot2docker - `boot2docker init`
-- Start boot2docker virtual image - `boot2docker up`
-- Initialize your shell environment - `eval "$(boot2docker shellinit)"`
-- Install [docker](http://docker.io)
-- Install [docker-compose](http://docs.docker.com/installation/mac/)
-  - `cd` into the project directory
-  - `docker-compose build`
-  - `docker-compose up`
-  - `open $(boot2docker ip)` - to open the correct IP in a browser
-
-  To stop the docker containers, hit `ctrl+c`.  Start the containers again with
-  `docker-compose up`.
-
-  On first setup locally, you will need to connect to mysql via:
-
 ## Deployment
 
 We are deploying with Mina and CircleCI.
