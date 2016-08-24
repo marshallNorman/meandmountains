@@ -1,0 +1,24 @@
+.hero {
+  background-color: #ccc;
+  background-image:
+  linear-gradient(
+    #cccccc,
+    #efefef 75%,
+    #ffffff 90%
+    );
+  width: 100%;
+  &--img {
+    width: 100%;
+    margin-top: -4.5em;
+  }
+}
+
+.type {
+  &--wrapper {
+    padding: 2em;
+  }
+  &--art {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -10,9 +10,6 @@ module.exports = (grunt) ->
       cwd: 'templates/pages'
       src: ['*.hbs']
       dest: './dist/'
-    placeholder:
-      src: 'templates/pages/placeholder.hbs'
-      dest: './dist/index.html'
 
   grunt.loadNpmTasks 'assemble'
 

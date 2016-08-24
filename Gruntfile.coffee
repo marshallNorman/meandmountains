@@ -40,5 +40,5 @@ module.exports = (grunt) ->
   grunt.registerTask "server", ["connect", "watch"]
 
   # Default task
-  grunt.registerTask "default", "buildDev"
+  grunt.registerTask "default", ["buildDev", "assemble"]
 
