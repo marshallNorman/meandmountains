@@ -1,0 +1,32 @@
+.releases {
+  padding: 0 2em;
+  &--list {
+    margin: 0;
+    padding: 0;
+  }
+  &--list-item {
+    list-style-type: none;
+    border-top: 1px solid #ccc;
+    padding: 1em 0;
+  }
+  &--img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  &--title {
+    display: inline-block;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+  &--date {
+    color: #999;
+    font-weight: 100;
+  }
+  &--description {
+  }
+  .button {
+    display: inline-block;
+    // margin-top: 1em;
+  }
+}

@@ -1,0 +1,33 @@
+release:
+  -
+    album-image: cover--iii.jpg
+    album-title: III
+    datetime: 2012
+    release-date: 2011
+    description: Four song EP released under Gas Daddy Go Records. Recorded and produced in The Smith Basement. Mixed by Tim Krug.
+    album-links:
+      -
+        album-link: #
+        album-link-title: Bandcamp
+
+  -
+    album-image: cover--feral.jpg
+    album-title: Feral
+    datetime: 2011
+    release-date: 2011
+    description: Recorded and produced in The Smith Basement. Mixed by Brian Whitten at Centre City Studios.
+    album-links:
+      -
+        album-link: #
+        album-link-title: Bandcamp
+
+  -
+    album-image: cover--mm.jpg
+    album-title: Me & Mountains
+    datetime: 2010
+    release-date: 2010
+    description: Me & Mountains' first release. Recorded and Produced by Derl at Fictionband Mechanics
+    album-links:
+      -
+        album-link: #
+        album-link-title: Bandcamp

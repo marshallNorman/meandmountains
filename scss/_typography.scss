@@ -1,0 +1,14 @@
+.section {
+  &--heading {
+    text-align: center;
+    padding: 1em 0;
+    margin: 0;
+    text-transform: uppercase;
+    .light {
+      color: #fff;
+    }
+    .dark {
+      color: #333;
+    }
+  }
+}

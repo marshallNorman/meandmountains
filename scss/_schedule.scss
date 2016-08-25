@@ -1,0 +1,52 @@
+.schedule {
+  background: #ccc;
+  &--list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  &--list-item {
+    margin: 0 1em;
+    padding: 1em 0;
+    border-top: 1px solid #fff;
+    color: #fff;
+  }
+  &--link {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  &--helper {
+    display: block;
+    font-size: 0.85em;
+    font-weight: 100;
+  }
+  &--also {
+    font-size: 0.85em;
+    font-weight: 100;
+  }
+  .date {
+    display: block;
+    font-size: 1.5em;
+  }
+  .button {
+    display: block;
+    width: 60%;
+  }
+}
+
+.button {
+  padding: 0.85em;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 1em auto;
+  &.light {
+    background-color: #fff;
+    color: #333;
+  }
+  &.dark {
+    background-color: #333;
+    color: #fff;
+  }
+}

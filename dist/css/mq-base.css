@@ -402,7 +402,18 @@ this the same font stack that Normalize.css sets for the `body`.
 body {
   margin: 0;
   padding: 0;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  font-family: 'Montserrat', helvetica, san-fransisco, sans-serif; }
+
+.section--heading {
+  text-align: center;
+  padding: 1em 0;
+  margin: 0;
+  text-transform: uppercase; }
+  .section--heading .light {
+    color: #fff; }
+  .section--heading .dark {
+    color: #333; }
 
 .hero {
   background-color: #ccc;
@@ -425,4 +436,70 @@ body {
     width: 100%; }
   .promo--img {
     width: 100%; }
+
+.schedule {
+  background: #ccc; }
+  .schedule--list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+  .schedule--list-item {
+    margin: 0 1em;
+    padding: 1em 0;
+    border-top: 1px solid #fff;
+    color: #fff; }
+  .schedule--link {
+    color: #fff;
+    text-transform: uppercase; }
+  .schedule--helper {
+    display: block;
+    font-size: 0.85em;
+    font-weight: 100; }
+  .schedule--also {
+    font-size: 0.85em;
+    font-weight: 100; }
+  .schedule .date {
+    display: block;
+    font-size: 1.5em; }
+  .schedule .button {
+    display: block;
+    width: 60%; }
+
+.button {
+  padding: 0.85em;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 1em auto; }
+  .button.light {
+    background-color: #fff;
+    color: #333; }
+  .button.dark {
+    background-color: #333;
+    color: #fff; }
+
+.releases {
+  padding: 0 2em; }
+  .releases--list {
+    margin: 0;
+    padding: 0; }
+  .releases--list-item {
+    list-style-type: none;
+    border-top: 1px solid #ccc;
+    padding: 1em 0; }
+  .releases--img {
+    width: 100%;
+    margin: 0 auto; }
+  .releases--title {
+    display: inline-block;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0; }
+  .releases--date {
+    color: #999;
+    font-weight: 100; }
+  .releases .button {
+    display: inline-block; }
+
 /*# sourceMappingURL=mq-base.css.map */

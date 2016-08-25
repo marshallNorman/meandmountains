@@ -1,0 +1,30 @@
+show:
+  -
+    datetime: 2016-09-30
+    date: September 30
+    venue-link: #
+    venue-name: Jimmie's Ladder 11
+    bands:
+      -
+        band-link: #
+        band-name: Gay Sharks
+        also: and
+      -
+        band-link: #
+        band-name: Andy Gabbard
+    details-link: #
+
+  -
+      datetime: 2016-11-05
+      date: November 5
+      venue-link: #
+      venue-name: Cloverdale
+      bands:
+        -
+          band-link: #
+          band-name: The New Old Fashioned
+          also: and
+        -
+          band-link: #
+          band-name: Human Cannonball
+      details-link: #

@@ -1,0 +1,18 @@
+<div class="schedule">
+  <h2 class="section--heading light">Upcoming Shows</h2>
+  <ul class="schedule--list">
+    {{#each schedule.show}}
+    <li class="schedule--list-item">
+      <time datetime="{{datetime}}" class="date">{{date}}</time>
+      <span class="schedule--helper">at</span>
+      <a class="schedule--link" href="{{venue-link}}">{{venue-name}}</a>
+      <span class="schedule--helper">with</span>
+      {{#each bands}}
+      <a class="schedule--link" href="{{band-link}}">{{band-name}}</a>
+      {{#if also}} <span class="schedule--also">{{also}}</span> {{/if}}
+      {{/each}}
+      <a class="button light" href="{{details-link}}">Show Details</a>
+    </li>
+    {{/each}}
+  </ul>
+</div>
